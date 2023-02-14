@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">Landing Page</a>
+        <input type="checkbox" id="menu-btn" class="menu-btn">
+        <label for="menu-btn" class="menu-icon">
+            <span class="nav-icon"></span>
+        </label>
+        <nav>
+            <ul class="menu">
+                <li>
+                    <a href="#">Inicio</a>
+                </li>
+                <li>
+                    <a href="#presentacion">Presentación</a>
+                </li>
+                <li>
+                    <a href="#servicios">Servicios</a>
+                </li>
+                <li>
+                    <a href="#contacto">Contacto</a>
+                </li>
+                <li>
+                    <a href="#redes">Redes sociales</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <a name="presentacion"></a>
+    <div class="banner">
+        <div class="content">
+            <h2>Landing Page <span>Personal</span></h2>
+            <p>Aquí se encuentra la presentación de la página</p>
+            <a href="#">learn more</a>
+        </div>
+    </div>
+
+    <a name="servicios"></a>
+    <main class="servicios">
+        <h2>Servicios</h2>
+        <div class="contenedor">
+            <article class="info">
+                <h2>UI / UX designer junior</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt aspernatur ab, quaerat maxime earum odit at ad laborum rerum maiores eligendi ipsum nobis, similique dolore! Vero tempora eveniet ex explicabo!</p>
+            </article>
+            <aside class="imagen">
+                <img src="./img/2.jpg" alt="">
+            </aside>
+        </div>
+        <div class="contenedor">
+            <aside class="imagen">
+                <img src="./img/3.jpeg" alt="">
+            </aside>
+            <article class="info">
+                <h2>Programador junior en Java</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt aspernatur ab, quaerat maxime earum odit at ad laborum rerum maiores eligendi ipsum nobis, similique dolore! Vero tempora eveniet ex explicabo!</p>
+            </article>
+        </div>
+        <div class="contenedor">
+            <article class="info">
+                <h2>Programador junior en C</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt aspernatur ab, quaerat maxime earum odit at ad laborum rerum maiores eligendi ipsum nobis, similique dolore! Vero tempora eveniet ex explicabo!</p>
+            </article>
+            <aside class="imagen">
+                <img src="./img/4.jpg" alt="">
+            </aside>
+        </div>
+    </main>
+
+    <a name="contacto"></a>
+    <div class="contactar">
+        <section>
+            <div class="login_message">
+                <h2>Contáctanos</h2>
+                <p>Manda tu informaión con las dudas que tengas y te atenderemos personalmente.</p>
+            </div>
+        </section>
+    
+        <section>
+            <div class="form">
+                <form action="" class="primary_data">
+                    <div class="div_full_name">
+                        <fieldset>
+                            <legend>Nombre</legend>
+                            <input type="text" name="name" placeholder="Tu nombre para contactarte">
+                        </fieldset>
+                        <fieldset>
+                            <legend>Email</legend>
+                            <input type="email" name="email" placeholder="Tu email para contactarte">
+                        </fieldset>
+                        <fieldset>
+                            <legend>Información adicional</legend>
+                            <input type="text" name="info" placeholder="Información">
+                        </fieldset>
+                    </div>
+                    <div>
+                        <p><input type="submit" id="boton"></p>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </div>
+
+    <a name="redes"></a>
+    <footer class="footer">
+        <div class="contenedor__tarjetas">
+            <!-- TARJETA DE TWITTER -->
+            <div class="tarjeta  tarjeta--1">
+                <div class="icono">
+                    <i class="fa-brands fa-twitter"></i>
+                </div>
+                <h2>TWITTER</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi magni commodi dolor error veritatis sequi, totam sit aut omnis tenetur voluptatem, similique eaque dolorum ducimus quod temporibus beatae recusandae accusantium?</p>
+                <hr>
+                <div class="footer__tarjeta">
+                    <a href="https://twitter.com/">
+                        <h3 class="leer__mas">READ MORE</h3>
+                    </a>
+                </div>
+            </div>
+    
+            <!-- TARJETA DE INSTAGRAM -->
+            <div class="tarjeta tarjeta--2">
+                <div class="icono">
+                    <i class="fa-brands fa-instagram"></i>
+                </div>
+                <h2>INSTAGRAM</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi magni commodi dolor error veritatis sequi, totam sit aut omnis tenetur voluptatem, similique eaque dolorum ducimus quod temporibus beatae recusandae accusantium?</p>
+                <hr>
+                <div class="footer__tarjeta">
+                    <a href="https://www.instagram.com/">
+                        <h3 class="leer__mas">READ MORE</h3>
+                    </a>
+                </div>
+            </div>
+    
+            <!-- TARJETA DE YOU TUBE -->
+            <div class="tarjeta tarjeta--3">
+                <div class="icono">
+                    <i class="fa-brands fa-youtube"></i>
+                </div>
+                <h2>YOU TUBE</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi magni commodi dolor error veritatis sequi, totam sit aut omnis tenetur voluptatem, similique eaque dolorum ducimus quod temporibus beatae recusandae accusantium?</p>
+                <hr>
+                <div class="footer__tarjeta">
+                    <a href="https://www.youtube.com/">
+                        <h3 class="leer__mas">READ MORE</h3>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
